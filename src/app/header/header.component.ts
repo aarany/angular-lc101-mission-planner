@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  missionName: string = "LC Angular 3";
-  rocketName: string = "ICAN";
+  missionName: string = "LC Angular Studio 3";
+  rocketName: string = "DOINGMYBEST";
   editingRocket: boolean = false;
   editingMission: boolean = false;
   

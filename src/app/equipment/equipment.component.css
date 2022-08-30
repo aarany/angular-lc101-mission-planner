@@ -16,5 +16,12 @@ h3 {
     background-color:gold
 }
 
+.disabled {
+    background-color: lightgray;
+}
+
+.nearMaxMass {
+    font-style: italic;
+}
 
 /* Add the 'nearMaxMass' class style here: */

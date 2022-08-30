@@ -31,5 +31,18 @@ export class EquipmentComponent implements OnInit {
     this.cargoMass += item['mass'];
     return this.maximumAllowedMass - this.cargoMass <= 200;
     }
-   
+
+  isActive (item) : boolean {
+    if (item.mass + this.cargoMass <= this.maximumAllowedMass && this.cargoHold.length < this.maxItems) {
+      return true;
+  // } else if (item.mass + this.cargoMass > this.maximumAllowedMass || this.cargoHold.length >= this.maxItems) {
+  //     return false;
+  }
 }
+   
+  // isDisabled (item) : boolean {
+  //   if (item.mass + this.cargoMass > this.maximumAllowedMass || this.cargoHold.length >= this.maxItems) {
+  //     return false;
+  //   }
+  // }
+ }
